@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Charger les données
-file_path = "/Users/mchour/Documents/ECOS-Alpha/250310_EDN_SDD.csv"
+file_path = "250310_EDN_SDD.csv"
 df = pd.read_csv(file_path, sep=None, engine="python")
 
 # Interface Streamlit
